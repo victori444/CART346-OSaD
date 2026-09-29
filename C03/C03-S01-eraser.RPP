@@ -1,0 +1,2206 @@
+<REAPER_PROJECT 0.1 "7.79/macOS-arm64" 1790650155 0
+  <NOTES 0 2
+  >
+  RIPPLE 0 0
+  GROUPOVERRIDE 0 0 0 0
+  AUTOXFADE 129
+  ENVATTACH 3
+  POOLEDENVATTACH 0
+  TCPUIFLAGS 0
+  MIXERUIFLAGS 11 48 0
+  ENVFADESZ10 40
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 0
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1 0
+  VIDEO_CONFIG 0 0 65792
+  PANMODE 3
+  PANLAWFLAGS 3
+  CURSOR 0
+  ZOOM 91.93015625772833 0 0
+  VZOOMEX 6 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "Media" ""
+  <RECORD_CFG
+    ZXZhdxgAAQ==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN $C03-S01-eraser
+  RENDER_FMT 0 2 44100
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 0 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  RENDER_NORMALIZE 193 0.199526 0.891251 0 0 1 1
+  RENDER_TRIM 0.000001 0.000001 0 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    ZXZhdxAAAQ==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    BEATLEN 4
+    FREQ 1760 880 1
+    SAMPLES "" "" "" ""
+    SPLIGNORE 0 0
+    SPLDEF 2 660 "" 0 ""
+    SPLDEF 3 440 "" 0 ""
+    PATTERN 0 169
+    PATTERNSTR ABBB
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4 0
+  PLAYRATE 1 0 0.25 4
+  SELECTION 1.5 1.5
+  SELECTION2 1.5 1.5
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0 1
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 2.03159955910453 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_PANLAWFLAGS 3
+  MASTER_FX 1
+  MASTER_TRACKID {0DEB2486-860D-3341-B9AB-6461F42E94CA}
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {2310DE23-95C6-1A44-BEF8-ACDAD58380B2}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {E3E2D8A7-B2A4-3D49-BE18-B74B1C0E5B71}
+    ACT 1 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  RULERHEIGHT 86 86
+  RULERLANE 1 4 "" 0 -1 0
+  RULERLANE 2 8 "" 0 -1 0
+  <PROJBAY
+  >
+  <TRACK {FA3EB3D9-9156-4B41-BA54-FA0246D90873}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 84 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {FA3EB3D9-9156-4B41-BA54-FA0246D90873}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0.00338482584954 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A1F05F96-5D59-D94B-974D-C47B95D6A74C}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {84CC9D5A-623F-C644-86B1-6E7585242A5D}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 0.13724885252304
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.00338482584954 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CB08ADE9-BC8D-2B4D-AD5F-591831DA0611}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8450C174-791A-F845-8428-69A72DC36358}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 0.27788253093604
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {695324DA-B036-0F4D-924B-7D18509A524A}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EF0F0B27-01A4-324A-9E5D-CB5AFB619323}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 0.41851620934904
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0.00070930943508 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D9AD344F-DA15-9D42-A803-F78014E492E4}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {15C3F048-36EC-3C43-A55C-AE4F3D05F20A}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 0.55844057828654
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.00070930943508 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A1E6B95C-42A2-974B-98E5-9C769E5E2A07}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EE4E8E72-7A1C-E942-919C-0C0B514E3A64}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 0.69907425669953
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0.00211553737205 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CD93E37E-D816-4942-8AFD-4F353B139056}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C74427A9-4DBA-4A44-BC72-6267E5FADA97}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 0.83759239770006
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.00211553737205 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {04DA6959-E6B4-D742-9AC7-91ED684B1DAB}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {52A39154-A298-514B-9ED8-5ABAB821231B}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 0.97822607611306
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9804B0F9-0B5B-E947-B375-7A77C14298E3}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B6A7F767-2198-644C-8678-9E4A1D96F6F5}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 1.11885975448564
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0.00338482584954 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D42C23AA-9478-3F46-B7F7-87FAA467C2AC}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {297A87AF-7AD9-E641-84D7-86407DF8714D}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 1.25610860700868
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.00338482584954 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FB1B0033-4015-9649-A441-A8E28A9DD116}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {450E04A0-954F-F84B-8C82-093BFE02692F}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 1.39674228542168
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4B6FD55A-57F8-C347-BA05-8CBC7EC892BF}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {70F1928E-2070-834B-A2FB-8999F1CACC81}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 1.53737596383468
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0.00070930943508 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F0A53ABB-76C9-9942-85D0-563F1F5DD122}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CEDD0B6B-C05F-7244-8C64-DC52B859D814}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 1.67730033277218
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.00070930943508 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2D5CDD5E-E9FA-DF4A-8CFF-25DF7189E43F}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9BB6F225-564D-DC4E-94C9-E94A2912BC61}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 1.81793401118517
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {758952ED-2B83-D448-B3A8-4859F5533728}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7C74E2B2-1A8A-CB4E-9654-F20AD9CEF914}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 1.95856768948175
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B3877831-F594-894C-9305-EA6286DC015F}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {22E40F62-D579-954E-BD48-B195114E3E39}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 2.09920136789475
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8415973A-D006-FE49-9E92-9CB9E9C98994}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0082A758-0BC6-BF44-9BB4-98FE0ADD7D92}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 2.23983504630775
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BDB59886-5777-0744-A76B-37CBEDB27FC0}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A7C5A5FB-8AF1-A045-B2CF-2CEDB7B3F9CC}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 2.38046872460433
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0.00288437395972 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {53EC69BB-3A11-A543-9797-02186EB9A4BE}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BFF35CDA-8EC2-EB4F-9B75-DFA3D4C930E1}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 2.51821802901719
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.00288437395972 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {218B0B94-8C31-6745-A651-C9B8A706AEE1}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {09E818F8-350C-0C44-BD88-F8FB337D6448}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 2.66052565021124
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.00288437395972 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DEE36550-EBD3-2A44-8262-8E5F37FCB0EB}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {761A7226-DC73-F849-BE16-9ACF0148CACA}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 2.80115932850782
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1BEC7659-FCDE-AA46-B547-AC751029583D}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {52CE3AA3-900B-2C4C-AD4B-A31CD3385B7F}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 4.19715867705647
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0.00425554146223 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E57B566D-E953-024B-AFAE-8F1F86FF7881}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0B21D85D-2F68-D143-BFD2-860E716EC503}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 4.33353681396683
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.00425554146223 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {948C89E8-E4CB-D848-8302-0BB6B959E7B4}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {40ECD531-A7E4-AD4A-A1EA-1DC112DFBB22}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 4.70848049386061
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A0A6B0DB-D4BC-8948-BCFD-0E1A0AFDF429}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1D3D5517-ED0A-8D4D-8E9C-5ED9DCCAFA30}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 4.84911417227361
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0.01721881383704 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {388784EB-EBBC-AD44-B240-F8DB6F53231C}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4C42497E-0685-5C41-B6E1-22FA7C41540D}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 4.97252903680915
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.01721881383704 1 1 0 0
+      FADEOUT 1.1 0 0.00338482584954 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4D1D0550-F9F4-814D-B760-B2FD7AA51052}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {54530B06-8216-4046-919C-0E0358E7A358}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 5.10977788933219
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.00338482584954 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B005FCB0-AF59-A546-94FE-B73FF3C385EA}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DE95190C-CA3A-034D-BDED-4B4C77F7699D}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 5.25041156774519
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {61816D46-D33F-8C4A-A8F9-3D1480AE8595}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2BD19107-CD8D-4D47-AE02-A815B73F072E}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 5.39104524615819
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0.00070930943508 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5EBE409C-46CE-5D43-9676-28711C39C25D}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C1B68654-4469-0C42-A77A-DDED7BEE49F6}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 5.53096961509569
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.00070930943508 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E6C1000C-AAAA-174B-81FE-15B7465243C9}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CC8E15F5-935A-0448-BA80-4BECCD9DB282}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 5.67160329350868
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6E405C40-6AD7-0544-917F-9636334F6931}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4BB18222-E9A0-DB4A-AA85-8B72526A0439}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 5.81223697180526
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E4258C59-F8CF-624D-9A4D-7ADB38A2B8E4}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F29C5A07-1D4D-9744-9759-3B01037E4010}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 5.95287065021826
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {821D6B52-CA8C-9C4A-BB35-BA2354E92ECC}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C8811229-A9E1-D544-BAA7-7C23DB1DE34B}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 6.09350432863126
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D5C4841C-47D2-1841-AFB6-1BE7D2257D79}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C9D3DF3B-6F3E-0C4B-B774-271158950751}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 6.23413800692784
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0.00288437395972 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5D2CA303-377A-E140-A565-33C411CF1827}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E459F131-35E5-C844-B231-BCC565AFD36B}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 6.3718873113407
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.00288437395972 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {625F17DF-1E25-8C42-AF2D-B3ADDD76E4F3}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A5CDA952-93C2-6841-A432-488914B7384E}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 8.30910098665078
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8B1DD3F3-62E2-3B41-AD7B-BCE8599C7A41}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5332637C-9B02-DA45-B5E2-3DADCB719C58}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 8.44973466506377
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0.01721881383704 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {983C23A6-7306-C445-BD94-CA49A1EB3558}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4ACE0596-68C3-1842-8BA5-0CFD7510BB22}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 8.57314952959456
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.01721881383704 1 1 0 0
+      FADEOUT 1.1 0 0.00338482584954 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6B653301-F406-3D42-AF0E-1830851F974F}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E73B478B-18E0-BA45-98B5-2E973E54E8EB}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 8.7103983821176
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.00338482584954 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {ACF3D587-C57C-124C-A65C-9528F2F12D11}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E07344CA-7546-D047-AB17-6180CB68340F}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 8.8510320605306
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1A7512CD-9FFE-0E49-A2E5-FBE5DEB13F98}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {47EF29E8-0F13-724F-BBD3-7883E16D8D8F}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 8.9916657389436
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0.00070930943508 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9D63D044-D880-DA44-8850-48F964363DA7}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {849EFA5F-887A-2F46-80AA-B41E5A0C9781}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 9.1315901078811
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.00070930943508 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AB507A44-E84B-B94A-AE11-C2A094F8F329}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F1700C7B-2960-6C41-AC64-6B9CFD8B2208}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 9.27222378629409
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C26C4ACC-CAF4-7749-89DA-BF78342AEEAC}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EC61554D-8AC0-5441-8330-791365DAD28D}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 9.41285746459067
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {22FC5DA2-E8B7-E34F-8279-01F317E66F6D}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D115AFD2-3828-914F-B4F4-8FE0E0819C66}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 9.55349114300367
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FEE46226-878F-C947-8D0F-D757069F2AC0}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7435377E-1901-DB4F-BAA9-DE0C2B867C17}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 9.69412482141666
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {339FF359-C956-4B45-941F-C916CE2A7545}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {79E68926-E42C-6B43-8A42-9762A80EE0E5}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 9.83475849971325
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0.00288437395972 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D2118015-4E6C-7A48-B1AB-48F80168E9F5}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3ED0342F-CFDF-A145-A41D-478C28AC38F7}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 9.97250780412611
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.00288437395972 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DE126809-41B9-3943-A0C9-DBE666A5C4B1}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0C79F0F7-CBF6-A842-8F13-C58B37215C33}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+  >
+  <TRACK {6E991472-AACE-5F47-89EA-0AE9213CC5B0}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {6E991472-AACE-5F47-89EA-0AE9213CC5B0}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 2.94179300689984
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F421B62B-1308-7A49-86A9-1728627724AB}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {9E024F27-B462-CE42-9CAC-EA0B1B952D7D}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 3.08242668527242
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {12BBDC15-4F2D-D941-BFEA-89CA8C73E8EE}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {3EC46366-5CCC-0E4C-8234-094DB176747F}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 3.223060363569
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F76B3EE0-0CC6-E142-85F1-085E07696C73}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {2D726CBD-AB0D-804F-9FF9-C31D07A1BF59}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 3.36369404198199
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6854968F-C334-3B45-99A9-CFF2B4B0AFCC}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {96FFA94E-805D-7C44-9AA0-4CF9BCE499B5}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 3.50432772039499
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F9CFC4C5-88D0-0F45-B1FC-1C25292F6533}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {8575A6B6-E17F-2E4D-BB9B-246F4C3D74E6}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 3.64496139869157
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C281D18A-B16B-6941-B7F6-738115B1A51C}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {29A06E8D-6798-5E42-B3DC-8289496A968D}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 3.78559507710457
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B757A527-4C4B-3945-BF0C-28C27571368D}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {E173FF0B-92C4-CB41-8D40-70B89A004E25}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 3.92622875547715
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C9A7A4B3-A1F4-204D-A26E-AB8AEB63EDB7}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {D6A06C4D-B384-AD4B-909E-B7DE6D60676D}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 4.06686243384973
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {695B01FC-2539-8C44-BBA3-C9B082CE777C}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {7ADCC822-26D0-1148-9926-9775D9B4E544}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 4.44300863465856
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BB811B5E-8A38-0B46-BAB7-6E8FB097CF90}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {AD5083C0-42F0-3343-842B-56D98750931C}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 4.58364231295514
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {610F2DDC-6BCD-4D42-BCA8-249B84E8081A}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {70A3EA80-448E-DC48-A9EE-ED45E9A30469}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 6.49653780188561
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4B7D36A3-FD85-F54F-88C1-B221FE2EA3F2}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {CACF6615-0C09-5545-83AA-274388188A22}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 6.6371714802986
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A4423EEE-67FB-D34F-BE15-2012FEB5D453}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {5F8D2150-5874-B84B-A331-5622D59D9A6B}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 6.77780515859518
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8A4C1271-5514-6841-A86D-65C82BE4697D}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {A686DC9A-5629-7B44-B336-68D77F06F203}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 6.91843883700818
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9A5904FF-A404-BD4F-8627-B95F8BDA167E}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {AFD15205-594F-0147-AFFA-3FD953633AFB}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 7.05907251542118
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {24E42BB2-03C7-C445-9080-35E27B4C4F3D}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {915F8107-4EB1-1845-8F02-44D828E8B9C7}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 7.19970619371776
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E12DD2FB-3847-0142-8C01-6006BC8FC778}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {D095ED47-0F09-694E-98ED-922812F22CC5}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 7.34033987213075
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9ED98D36-9617-4C4D-8D36-2C1A1A939DB5}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {FEFBF7CA-1E09-2249-A3DB-6354F4929891}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 7.48097355042734
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DF6EF790-424A-834A-9797-8EFA617B53D3}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {CA54A457-0725-5349-9E74-DA5A70588488}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 7.62160722884033
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0.00790891128741 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {60943FF4-3FF4-4641-8C22-78389D554BA6}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {B870D9EF-B1E8-E148-9AEE-1F33A6AC88BA}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 7.7543319959255
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.00790891128741 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2A589345-2AB3-5340-AA2B-159BB3F378E9}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 5 -1 0 0.0025
+      CHANMODE 0
+      GUID {EABF1E9B-25D6-DF40-AC40-A3EA06906811}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 7.89496567422208
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0.00932177303508 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0BF08C3C-7978-DD44-A01C-EE4E316DAAF5}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 5 -1 0 0.0025
+      CHANMODE 0
+      GUID {10DC001E-3CB0-3D44-8D55-E2F146F21FF7}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 8.02627757955958
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.00932177303508 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4348A706-E3D8-2C46-9089-85176467B4BC}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {5830F3B2-F7F1-B640-A550-298E01DF4C9A}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 8.16691125785616
+      SNAPOFFS 0
+      LENGTH 0.14063367837258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4AB650B8-E4A0-0647-BAA5-73FB2177D021}
+      IID 14
+      NAME C01-S01-crinkling.wav
+      VOLPAN 1 0 2.42694 -1
+      SOFFS 0.05907780362962
+      PLAYRATE 0.1 1 2 -1 0 0.0025
+      CHANMODE 0
+      GUID {29329122-82F4-CE4C-B6E7-AD23228A7216}
+      <SOURCE SECTION
+        LENGTH 0.75
+        MODE 3
+        STARTPOS 0.4884190726359
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/victoriahoang/GitProjects/CART346-OSaD/C01/C01-S01-crinkling.wav"
+        >
+      >
+    >
+  >
+>
