@@ -1,113 +1,548 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IT'S GONNA RAIN — Study on Phase</title>
-<script>
-  // Apply saved theme before first paint (light is the default)
-  try { if (localStorage.getItem('theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {}
-</script>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>IT'S GONNA RAIN — Study on Phase</title>
+
+  <script>
+    // Apply saved theme before first paint.
+    try {
+      document.documentElement.dataset.theme = 'dark';
+    } catch (e) {}
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Roboto+Condensed:wght@300;400;700&family=DM+Serif+Display:ital@0;1&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-  <div class="title-block">
-    <h1>It's Gonna Rain</h1>
-    <h2>Based on Steve Reich's <em>It's Gonna Rain (1965)</em> </h2>
-  </div>
-  <div class="meta">
-    <button class="theme-btn" id="themeBtn" onclick="toggleTheme()">◐ &nbsp;Dark</button>
-  </div>
-</header>
+  <!-- =========================================================
+       DECORATIVE DIGITAL ARCHIVE LAYER
+       ========================================================= -->
 
-<div class="body">
-  <div class="left">
+  <div class="noise"></div>
+  <div class="scanlines"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <div class="site-frame">
 
-    <!-- Sample panel -->
-    <div class="sample-section" id="sampleSection">
-      <div class="section-label" style="margin-bottom:0">Audio sample — looped in both channels</div>
+    <!-- =======================================================
+         HEADER
+         ======================================================= -->
 
-      <div class="drop-zone" id="dropZone">
-        <input type="file" id="fileInput" accept="audio/*,.aif,.aiff,.aifc" onchange="loadFile(this.files[0])">
-        <div class="drop-zone-text">
-          <strong>Drop audio file here</strong>
-          or click to browse · WAV / AIFF / MP3 / OGG
+    <header class="header">
+
+      <div class="header-left">
+
+        <div class="archive-mark">
+          <span class="archive-dot"></span>
+          <span>ARCHIVE / 001</span>
         </div>
-      </div>
 
-      <div class="sample-info" id="sampleInfo">
-        File: <span id="sampleName">—</span> &nbsp;·&nbsp;
-        Duration: <span id="sampleDur">—</span>
-      </div>
+        <div class="title-wrap">
 
-      <canvas id="sampleWaveThumb"></canvas>
-
-      <div class="playhead-row">
-        <div class="playhead-label">
-          <span style="color:var(--c1)">▌</span> Voice I &nbsp;·&nbsp;
-          <span style="color:var(--c2)">▌</span> Voice II — playhead positions
-        </div>
-        <div class="circle-wrap"><canvas id="playheadCircle"></canvas></div>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="right">
-
-    <div>
-      <div class="ctrl-title">Sound</div>
-      <div class="sound-btns">
-        <button class="sound-btn" data-sound="1" onclick="loadSound(1)">1</button>
-        <button class="sound-btn" data-sound="2" onclick="loadSound(2)">2</button>
-        <button class="sound-btn" data-sound="3" onclick="loadSound(3)">3</button>
-        <button class="sound-btn" data-sound="4" onclick="loadSound(4)">4</button>
-        <button class="sound-btn" data-sound="5" onclick="loadSound(5)">5</button>
-      </div>
-    </div>
-
-    <div>
-      <div class="ctrl-title">Transport</div>
-      <button class="btn btn-play"  id="btnPlay"  onclick="togglePlay()">▶ &nbsp;Start</button>
-      <button class="btn btn-phase" id="btnPhase" onclick="togglePhasing()" disabled>⏸ &nbsp;Pause phasing</button>
-      <button class="btn btn-reset" onclick="resetPhase()">↺ &nbsp;Sync voices</button>
-      <div class="status">STATUS: <span id="statusTxt">STOPPED</span></div>
-    </div>
-
-    <!-- Phase speed -->
-    <div>
-      <div class="ctrl-title">Voice II — Speed</div>
-      <div class="ctrl-group">
-        <div class="ctrl-row">
-          <div class="ctrl-hd">
-            <span class="cn">Ratio</span>
-            <span class="cv" id="ratioVal">1.0020</span>
+          <div class="tiny-title">
+            STUDY ON PHASE · DIGITAL DOCUMENT
           </div>
-          <input type="range" class="r2" id="ratioCtrl" min="1.0" max="1.03"
-            step="0.0001" value="1.002" oninput="updateRatio()">
-        </div>
-      </div>
-    </div>
 
-    <div>
-      <div class="ctrl-title">Master</div>
-      <div class="ctrl-group">
-        <div class="ctrl-row">
-          <div class="ctrl-hd">
-            <span class="cn">Volume</span>
-            <span class="cv" id="volVal">0.6</span>
+          <h1
+            class="glitch-title"
+            data-text="IT'S GONNA RAIN"
+            id="mainTitle"
+          >
+            IT'S GONNA RAIN
+          </h1>
+
+          <div class="subtitle">
+            BASED ON STEVE REICH'S
+            <em>IT'S GONNA RAIN</em>
+            <span class="year">(1965)</span>
           </div>
-          <input type="range" id="volCtrl" min="0" max="1" step="0.01" value="0.6"
-            oninput="updateVol()">
+
         </div>
+
       </div>
-    </div>
+
+      <div class="header-right">
+
+        <div class="date-stamp">
+          <span>STUDY / PHASE</span>
+          <strong>01</strong>
+        </div>
+
+        <button
+          class="theme-btn chrome-btn"
+          id="themeBtn"
+          onclick="toggleTheme()"
+        >
+          ◐ &nbsp; NIGHT
+        </button>
+
+      </div>
+
+    </header>
+
+
+    <!-- =======================================================
+         MAIN CONTENT
+         ======================================================= -->
+
+    <main class="main">
+
+      <!-- =====================================================
+           LEFT / MAIN ARCHIVE
+           ===================================================== -->
+
+      <section class="archive-panel">
+
+        <div class="panel-topline">
+
+          <div>
+            <span class="panel-number">01</span>
+            <span class="panel-title">AUDIO DOCUMENT</span>
+          </div>
+
+          <div class="micro-label">
+            INPUT / LOOP / TWO CHANNEL
+          </div>
+
+        </div>
+
+
+        <!-- AUDIO UPLOAD -->
+
+        <div
+          class="drop-zone"
+          id="dropZone"
+        >
+
+          <input
+            type="file"
+            id="fileInput"
+            accept="audio/*,.aif,.aiff,.aifc"
+            onchange="loadFile(this.files[0])"
+          >
+
+          <div class="drop-decoration">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="upload-inner">
+
+            <div class="upload-symbol">
+              <span>↑</span>
+            </div>
+
+            <div class="upload-main">
+              DROP AUDIO DOCUMENT
+            </div>
+
+            <div class="upload-sub">
+              OR CLICK TO SELECT
+            </div>
+
+            <div class="upload-formats">
+              WAV · AIFF · MP3 · OGG
+            </div>
+
+          </div>
+
+          <div class="drop-corner corner-tl"></div>
+          <div class="drop-corner corner-tr"></div>
+          <div class="drop-corner corner-bl"></div>
+          <div class="drop-corner corner-br"></div>
+
+        </div>
+
+
+        <!-- FILE INFO -->
+
+        <div
+          class="sample-info"
+          id="sampleInfo"
+        >
+
+          <div class="file-meta">
+
+            <div>
+              <span class="meta-label">FILE</span>
+              <span class="meta-value" id="sampleName">—</span>
+            </div>
+
+            <div>
+              <span class="meta-label">DURATION</span>
+              <span class="meta-value" id="sampleDur">—</span>
+            </div>
+
+          </div>
+
+          <div class="file-status">
+            <span class="status-light"></span>
+            DOCUMENT LOADED
+          </div>
+
+        </div>
+
+
+        <!-- WAVEFORM -->
+
+        <div class="waveform-wrap">
+
+          <div class="waveform-label">
+            <span>WAVEFORM / SOURCE</span>
+            <span>00:00 — LOOP</span>
+          </div>
+
+          <canvas id="sampleWaveThumb"></canvas>
+
+        </div>
+
+
+        <!-- PHASE DISPLAY -->
+
+        <div class="phase-display">
+
+          <div class="phase-header">
+
+            <div class="phase-label">
+              <span class="voice-mark voice-one"></span>
+              VOICE I
+            </div>
+
+            <div class="phase-center-label">
+              PHASE / 360°
+            </div>
+
+            <div class="phase-label">
+              VOICE II
+              <span class="voice-mark voice-two"></span>
+            </div>
+
+          </div>
+
+
+          <div
+            class="circle-wrap"
+            id="circleWrap"
+          >
+
+            <div class="circle-orbit orbit-one"></div>
+            <div class="circle-orbit orbit-two"></div>
+
+            <div class="circle-cross cross-horizontal"></div>
+            <div class="circle-cross cross-vertical"></div>
+
+            <div class="circle-readout">
+              <span id="phaseReadout">SYNC</span>
+              <small>PHASE OFFSET</small>
+            </div>
+
+            <canvas id="playheadCircle"></canvas>
+
+          </div>
+
+
+          <div class="playhead-row">
+
+            <div class="playhead-label">
+              <span class="legend-line voice-one"></span>
+              VOICE I
+              <span class="position-value" id="positionOne">0.000</span>
+            </div>
+
+            <div class="playhead-label">
+              <span class="legend-line voice-two"></span>
+              VOICE II
+              <span class="position-value" id="positionTwo">0.000</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =====================================================
+           RIGHT / CONTROL PANEL
+           ===================================================== -->
+
+      <aside class="control-panel">
+
+
+        <!-- SOUND -->
+
+        <section class="control-section">
+
+          <div class="section-heading">
+            <span class="section-index">02</span>
+            <span>SOUND ARCHIVE</span>
+          </div>
+
+          <div class="sound-btns">
+
+            <button
+              class="sound-btn"
+              data-sound="1"
+              onclick="loadSound(1)"
+            >
+              <span class="sound-number">01</span>
+              <span class="sound-label">SAMPLE</span>
+            </button>
+
+            <button
+              class="sound-btn"
+              data-sound="2"
+              onclick="loadSound(2)"
+            >
+              <span class="sound-number">02</span>
+              <span class="sound-label">SAMPLE</span>
+            </button>
+
+            <button
+              class="sound-btn"
+              data-sound="3"
+              onclick="loadSound(3)"
+            >
+              <span class="sound-number">03</span>
+              <span class="sound-label">SAMPLE</span>
+            </button>
+
+            <button
+              class="sound-btn"
+              data-sound="4"
+              onclick="loadSound(4)"
+            >
+              <span class="sound-number">04</span>
+              <span class="sound-label">SAMPLE</span>
+            </button>
+
+            <button
+              class="sound-btn"
+              data-sound="5"
+              onclick="loadSound(5)"
+            >
+              <span class="sound-number">05</span>
+              <span class="sound-label">SAMPLE</span>
+            </button>
+
+          </div>
+
+        </section>
+
+
+        <!-- TRANSPORT -->
+
+        <section class="control-section">
+
+          <div class="section-heading">
+            <span class="section-index">03</span>
+            <span>TRANSPORT</span>
+          </div>
+
+          <button
+            class="btn btn-play chrome-btn"
+            id="btnPlay"
+            onclick="togglePlay()"
+          >
+            <span class="btn-symbol">▶</span>
+            <span>START</span>
+          </button>
+
+          <button
+            class="btn btn-phase"
+            id="btnPhase"
+            onclick="togglePhasing()"
+            disabled
+          >
+            <span class="btn-symbol">Ⅱ</span>
+            <span>PAUSE PHASING</span>
+          </button>
+
+          <button
+            class="btn btn-reset"
+            onclick="resetPhase()"
+          >
+            <span class="btn-symbol">↺</span>
+            <span>SYNC VOICES</span>
+          </button>
+
+
+          <div class="status-box">
+
+            <div class="status-label">
+              SYSTEM STATUS
+            </div>
+
+            <div class="status-value">
+              <span class="status-light"></span>
+              <span id="statusTxt">STOPPED</span>
+            </div>
+
+          </div>
+
+        </section>
+
+
+        <!-- PHASE SPEED -->
+
+        <section class="control-section">
+
+          <div class="section-heading">
+            <span class="section-index">04</span>
+            <span>VOICE II / SPEED</span>
+          </div>
+
+          <div class="control-row">
+
+            <div class="control-heading">
+              <span>RATIO</span>
+              <strong id="ratioVal">1.0020</strong>
+            </div>
+
+            <div class="slider-shell">
+
+              <span class="slider-min">1.000</span>
+
+              <input
+                type="range"
+                class="r2"
+                id="ratioCtrl"
+                min="1.0"
+                max="1.03"
+                step="0.0001"
+                value="1.002"
+                oninput="updateRatio()"
+              >
+
+              <span class="slider-max">1.030</span>
+
+            </div>
+
+          </div>
+
+        </section>
+
+
+        <!-- MASTER -->
+
+        <section class="control-section">
+
+          <div class="section-heading">
+            <span class="section-index">05</span>
+            <span>MASTER</span>
+          </div>
+
+          <div class="control-row">
+
+            <div class="control-heading">
+              <span>VOLUME</span>
+              <strong id="volVal">0.60</strong>
+            </div>
+
+            <div class="slider-shell">
+
+              <span class="slider-min">0</span>
+
+              <input
+                type="range"
+                id="volCtrl"
+                min="0"
+                max="1"
+                step="0.01"
+                value="0.6"
+                oninput="updateVol()"
+              >
+
+              <span class="slider-max">1</span>
+
+            </div>
+
+          </div>
+
+        </section>
+
+
+        <!-- DECORATIVE ARCHIVE INFO -->
+
+        <section class="archive-info">
+
+          <div>
+            <span>FORMAT</span>
+            <strong>TWO CHANNEL</strong>
+          </div>
+
+          <div>
+            <span>METHOD</span>
+            <strong>PHASE SHIFT</strong>
+          </div>
+
+          <div>
+            <span>VERSION</span>
+            <strong>01.00 / 2026</strong>
+          </div>
+
+        </section>
+
+
+        <div class="panel-footer">
+
+          <span>© DIGITAL PHASE STUDIES</span>
+
+          <span class="signal-bars">
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+          </span>
+
+        </div>
+
+      </aside>
+
+    </main>
+
+
+    <!-- =======================================================
+         FOOTER
+         ======================================================= -->
+
+    <footer class="footer">
+
+      <div>
+        IT'S GONNA RAIN / STUDY ON PHASE
+      </div>
+
+      <div>
+        STEVE REICH · 1965
+      </div>
+
+      <div class="footer-status">
+        <span></span>
+        AUDIO SYSTEM READY
+      </div>
+
+    </footer>
 
   </div>
-</div>
 
-<script src="script.js"></script>
+
+  <!-- =========================================================
+       SCRIPT
+       ========================================================= -->
+
+  <script src="script.js"></script>
+
 </body>
 </html>
